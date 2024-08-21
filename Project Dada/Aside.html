@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--begin::Head-->
+	<head>
+		<base href="">
+		<title>Aside menue</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<!--begin::Page Vendor Stylesheets(used by this page)-->
+		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Page Vendor Stylesheets-->
+		<!--begin::Global Stylesheets Bundle(used by all pages)-->
+		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+		<!--end::Global Stylesheets Bundle-->
+       <style>
+        
+#kt_aside_menu .menu-link.active {
+    background-color: #0062ff00;
+    color: #009ef7;
+    border: 1px solid #009ef7; 
+    border-radius: 2px; 
+    padding: 5px; 
+}
+       </style>
+	</head>
+<body>
+    </style>
+    <div id="kt_aside" class="aside pb-5 pt-5 pt-lg-0" data-kt-drawer="true" data-kt-drawer-name="aside" data-kt-drawer-activate="{default: true, lg: false}" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'80px', '300px': '100px'}" data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_aside_mobile_toggle">
+        <!--begin::Brand-->
+        <div class="aside-logo py-8" id="kt_aside_logo">
+            <!--begin::Logo-->
+            <a href="../../Dashboard.html" class="d-flex align-items-center">
+                <img alt="Logo" src="assets/media/png-transparent-elephant-graphic-decor-sri-lanka-police-emblem-of-sri-lanka-inspector-general-of-police-police-white-people-fictional-character.png" class="h-45px logo" />
+            </a>
+            <!--end::Logo-->
+        </div>
+        <!--end::Brand-->
+    
+        <!--begin::Aside menu-->
+        <div class="aside-menu flex-column-fluid" id="kt_aside_menu">
+            <!--begin::Aside Menu-->
+            <div class="hover-scroll-overlay-y my-2 my-lg-5 pe-lg-n1" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu" data-kt-scroll-offset="5px">
+                <!--begin::Menu-->
+                <div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bold" id="kt_aside_menu" data-kt-menu="true">
+                    <div class="menu-item py-2">
+                        <a href="Dashboard.html" class="menu-link menu-center" data-bs-dismiss="click" data-bs-placement="right" id="Dashboard_Icon">
+                            <span class="menu-icon me-0">
+                                <i class="bi bi-speedometer fs-2"></i>
+                            </span>
+                            <span class="menu-title1">Dashboard</span>
+                        </a>
+                    </div>
+                    <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <span href="" class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                            <span class="menu-icon me-0">
+                                <i class="bi bi-file-earmark-lock fs-2"></i>
+                            </span>
+                            <span class="menu-title">Charges</span>
+                        </span>
+                    </div>
+                    <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <span href="Charge.html" class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                            <span class="menu-icon me-0">
+                                <i class="bi bi-shield-check fs-2"></i>
+                            </span>
+                            <span class="menu-title">Charge</span>
+                        </span>
+                    </div>
+                    <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <span href="Users.html" class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                            <span class="menu-icon me-0">
+                                <i class="bi bi-person-circle fs-2"></i>
+                            </span>
+                            <span class="menu-title">Users</span>
+                        </span>
+                    </div>
+                    <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <span class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                            <span class="menu-icon me-0">
+                                <i class="bi bi-file-text fs-2"></i>
+                            </span>
+                            <span class="menu-title">Reports</span>
+                        </span>
+                        <div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
+                            <div class="menu-item">
+                                <div class="menu-content">
+                                    <span class="menu-section fs-5 fw-bolder ps-1 py-1">General</span>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/pages/company/about.html">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">About Us</span>
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/pages/company/pricing.html">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">Pricing</span>
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/pages/company/contact.html">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">Contact Us</span>
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/pages/company/sitemap.html">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">Sitemap</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-kt-menu-trigger="click" data-kt-menu-placement="right-start" class="menu-item py-2">
+                        <a class="menu-link menu-center" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                            <span class="menu-icon me-0">
+                                <i class="bi bi-gear fs-2"></i>
+                            </span>
+                            <span class="menu-title">More</span>
+                        </a>
+                        <div class="menu-sub menu-sub-dropdown w-225px px-1 py-4">
+                            <div class="menu-item">
+                                <div class="menu-content">
+                                    <span class="menu-section fs-5 fw-bolder ps-1 py-1">Resources</span>
+                                </div>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/documentation/base/utilities.html" title="Check out over 200 in-house components, plugins and ready for use solutions" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-grid fs-3"></i>
+                                    </span>
+                                    <span class="menu-title">Components</span>
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/documentation/getting-started.html" title="Check out the complete documentation" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-box fs-3"></i>
+                                    </span>
+                                    <span class="menu-title">Documentation</span>
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="https://preview.keenthemes.com/metronic8/demo6/layout-builder.html" title="Build your layout, preview and export HTML for server side integration" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-dismiss="click" data-bs-placement="right">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-layers fs-3"></i>
+                                    </span>
+                                    <span class="menu-title">Layout Builder</span>
+                                </a>
+                            </div>
+                            <div class="menu-item">
+                                <a class="menu-link" href="../../demo6/dist/documentation/getting-started/changelog.html">
+                                    <span class="menu-icon">
+                                        <i class="bi bi-card-text fs-3"></i>
+                                    </span>
+                                    <span class="menu-title">Changelog v8.0.31</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end::Menu-->
+            </div>
+            <!--end::Aside Menu-->
+        </div>
+        <!--end::Aside menu-->
+    </div>    
+<script>var hostUrl = "assets/";</script>
+<!--begin::Javascript-->
+<!--begin::Global Javascript Bundle(used by all pages)-->
+<script src="assets/plugins/global/plugins.bundle.js"></script>
+<script src="assets/js/scripts.bundle.js"></script>
+<!--end::Global Javascript Bundle-->
+<!--begin::Page Vendors Javascript(used by this page)-->
+<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+<!--end::Page Vendors Javascript-->
+<!--begin::Page Custom Javascript(used by this page)-->
+<script src="assets/js/custom/widgets.js"></script>
+<script src="assets/js/custom/apps/chat/chat.js"></script>
+<script src="assets/js/custom/modals/create-app.js"></script>
+<script src="assets/js/custom/modals/upgrade-plan.js"></script>
+<!--end::Page Custom Javascript-->
+<!--end::Javascript-->
+<!-- JQuery -->
+<script src="lib/jquery/jquery-3.7.1.min.js"></script>
+<!-- DataTable -->
+<script src="lib/datatable/dataTables.js"></script>
+
+<script>
+
+</script>
+</body>
